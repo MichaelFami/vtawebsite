@@ -10425,3 +10425,8 @@ a.text-dark:focus {
   /* Height of the footer */
 }
 
+.navbar-slash {
+  padding-top: 7px;
+  display: block;
+}
+
