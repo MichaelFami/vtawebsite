@@ -4,6 +4,8 @@
 
 @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+
 // Variables
 @import "variables";
 
@@ -15,7 +17,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-
+.navbar{
+    opacity: 0.75;
+}
 
 hr{
     color: white;
@@ -39,6 +43,7 @@ hr{
 #greyBand{
     background-color: grey;
     padding: 50px;
+
 }
 
 .greyBandText{
@@ -46,5 +51,9 @@ hr{
 }
 
 .greyBandButton{
+
+}
+
+#contactBox{
 
 }

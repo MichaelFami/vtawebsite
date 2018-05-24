@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://use.fontawesome.com/releases/v5.0.13/css/all.css);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://use.fontawesome.com/releases/v5.0.13/css/all.css);@import url(https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css);/*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10415,6 +10415,10 @@ a.text-dark:focus {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar {
+  opacity: 0.75;
 }
 
 hr {
