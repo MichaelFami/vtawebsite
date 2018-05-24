@@ -10417,14 +10417,6 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  /* Height of the footer */
-}
-
 hr {
   color: white;
   border-color: inherit;
@@ -10433,5 +10425,22 @@ hr {
 .navbar-slash {
   padding-top: 7px;
   display: block;
+  color: white;
+}
+
+#home {
+  background-image: url(/images/home.jpg?1554fbd3644608005e3d057f2b71fe79);
+  background-size: cover;
+  height: 700px;
+  padding-top: 300px;
+}
+
+#greyBand {
+  background-color: grey;
+  padding: 50px;
+}
+
+.greyBandText {
+  font-size: x-large;
 }
 
