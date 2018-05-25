@@ -1,9 +1,22 @@
 @extends('master') @section('title') Valley Technical Academy @endsection @section('body')
 <div id="home" class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    </div>
+        <div class="row mx-4">
+            <div class="col">
+                <a class="text-white" href="#">HOME</a>
+                <span class="text-white">|</span>
+                <a class="text-white" href="#">ONLINE COURSES</a>
+            </div>
+        </div>
+        <div class="row mx-4">
+            <div class="col">
+                <h1 id="jumbotronTitle" class="display-4 float-right text-white">Valley Tech Online Program:</h1>
+            </div>
+        </div>
+        <div class="row mx-4">
+            <div class="col">
+                <p class="lead float-right text-white">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
 </div>
 <div id="threeButtons" class="row mx-5">
     <div class="col">

@@ -10439,6 +10439,11 @@ hr {
   padding-top: 300px;
 }
 
+#jumbotronTitle {
+  font-size: 60px;
+  font-weight: bold;
+}
+
 #greyBand {
   background-color: grey;
   padding: 50px;
