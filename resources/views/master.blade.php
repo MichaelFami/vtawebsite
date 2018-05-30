@@ -5,19 +5,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" type="text/css" href="/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
     <title>@yield('title')</title>
 </head>
 
 <body>
 
 
-    <nav class="navbar fixed-top navbar-inverse navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar fixed-top navbar-inverse navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
             <div class="row w-100 no-gutters d-lg-flex d-flex flex-wrap justify-content-between">
                 <a class="navbar-brand col-lg-3 col-7 py-lg-3 order-lg-1 order-2 float-left d-block" href="Bootstrap 4 Navbar">
-                    <img src="//placehold.it/150x48?text=logo" class="img-fluid">
+                    <img id="vtaLogo" src="images/VTA-logo-white.png" class="img-fluid">
                 </a>
                 <div class="navbar-text col-lg-6 col-12 order-lg-2 order-1 text-right float-right align-self-end">
                     <ul class="navbar-nav justify-content-end ml-auto w-40">
@@ -95,10 +97,10 @@
 
 
     <footer id="footer">
-        <div class="container-fluid py-4 bg-primary">
+        <div class="container-fluid py-4 bg-danger">
             <div class="container">
                 <div class="row justify-content-between w-100">
-                    <div class="col-3 mb-md-0 mb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
                         <p class="mbr-text">
                             <a class="text-white" href="#">ABOUT</a>
                             <br>
@@ -116,13 +118,14 @@
                         </p>
 
                     </div>
-                    <div class="col-3 text-white">
+                    <div class="col-md-3 text-white">
+                        <img id="" src="images/VTA-logo-white.png" alt="">
                     <i class="fab fa-facebook-f fa-2x pr-4"></i>
                     <i class="fab fa-linkedin-in fa-2x pr-4"></i>
                     <i class="fab fa-twitter fa-2x pr-4"></i>
                     <i class="fab fa-instagram fa-2x"></i>
                     </div>
-                    <div class="col-3 text-white">
+                    <div class="col-md-3 text-white">
                         <p>956-335-3500
                         <br>
                         <br>
@@ -155,9 +158,11 @@
 
 
     <script src="/js/app.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="/js/slick/slick.min.js"></script>
+
+  @yield('bottomjs')
 </body>
 
 </html>
