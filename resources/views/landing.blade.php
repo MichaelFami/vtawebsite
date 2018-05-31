@@ -62,10 +62,58 @@
 </div>
 
 <div class="slickSlides">
-    <div><img src="http://via.placeholder.com/300" /></div>
-    <div><img src="http://via.placeholder.com/300" /></div>
-    <div><img src="http://via.placeholder.com/300" /></div>
-    <div><img src="http://via.placeholder.com/300" /></div>
+    <div class="slide">
+        <img src="images/carousel1.png" />
+
+            <div id="slide1" class="row">
+                <div class="col">
+                    <h4>FULL STACK DEVELOPER</h4>
+                    <h5>Entry, Mid, & Advanced Levels</h5>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-danger straightEdges" type="button" name="button">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <div class="slide" >
+        <img src="images/carousel2.png" />
+        <div id="slide2"  class="row">
+            <div class="col">
+                <h4>MOBILE APP DEVELOPER</h4>
+                <h5>Entry, Mid, & Advanced Levels</h5>
+                <div class="row justify-content-center">
+                    <button class="btn btn-danger straightEdges" type="button" name="button">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="slide" >
+        <img src="images/carousel3.png" />
+        <div id="slide3" class="row">
+            <div class="col">
+                <h4>FULL STACK DEVELOPER</h4>
+                <h5>Entry, Mid, & Advanced Levels</h5>
+                <div class="row justify-content-center">
+                    <button class="btn btn-primary straightEdges" type="button" name="button">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="slide" id="slide4">
+        <img src="images/carousel1.png" />
+        <div  class="row">
+            <div class="col">
+                <h4>DATA SCIENCE</h4>
+                <h5>Entry, Mid, & Advanced Levels</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button class="btn btn-danger straightEdges" type="button" name="button">LEARN MORE</button>
+        </div>
+    </div>
 </div>
 <div class="row">
     <div class="col-md-6">
@@ -88,7 +136,6 @@
         <h2>Have a Question? Let's Talk :)</h5>
         <br>
         <h5>Please provide your contact info and we will get in touch with you about the online program.</h3>
-
     </div>
 
 

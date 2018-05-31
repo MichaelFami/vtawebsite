@@ -17,9 +17,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.navbar{
-    opacity: 0.9;
-}
+
 
 hr{
     color: white;
@@ -93,4 +91,27 @@ hr{
 
 .straightEdges{
     border-radius: 0 !important;
+}
+
+#slide1{
+    background-color: #ebeaec;
+    width: 100%;
+}
+
+#slide2{
+    background-color: #21262a;
+    width: 100%;
+}
+
+#slide3{
+    background-color: #8f1839;
+    width: 100%;
+}
+
+#slide4{
+    background-color: #21262a;
+    width: 100%;
+}
+.slickSlides .slide img{
+    width: 100%;
 }

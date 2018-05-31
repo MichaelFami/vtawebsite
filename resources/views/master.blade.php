@@ -15,7 +15,7 @@
 <body>
 
 
-    <nav class="navbar fixed-top navbar-inverse navbar-expand-lg navbar-dark bg-danger">
+    <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
             <div class="row w-100 no-gutters d-lg-flex d-flex flex-wrap justify-content-between">
                 <a class="navbar-brand col-lg-3 col-7 py-lg-3 order-lg-1 order-2 float-left d-block" href="Bootstrap 4 Navbar">
