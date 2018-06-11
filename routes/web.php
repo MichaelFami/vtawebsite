@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('landing');
 });
+
+Route::get('/fullStack', function (){
+    return view('fullStack');
+});
