@@ -25,7 +25,8 @@
 
     <div class="w-25">
         <button id="contactButton" class="btn px-4 py-2 float-left" type="button " name="button">CONTACT</button>
-        <button id="applyButton" class="btn btn-primary float-right px-4 py-2" type="button" name="button">APPLY</button>
+        <button id="applyButton" class="btn btn-primary float-right px-4 py-2" type="button" name="button" href="/applicationForm"
+        >APPLY</button>
     </div>
 
 </div>

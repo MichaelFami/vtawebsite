@@ -27,7 +27,7 @@
                         </li>
                         <span class="navbar-slash">|</span>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Apply<span class="sr-only"></span></a>
+                            <a class="nav-link" href="/applicationForm">Apply<span class="sr-only"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">Financial Aid</a>
                                 <a class="dropdown-item" href="#">Schedule Visit</a>
-                                <a class="dropdown-item" href="#">Apply</a>
+                                <a class="dropdown-item" href="/applicationForm">Apply</a>
                             </div>
                         </li>
                         <span class="navbar-slash">/</span>

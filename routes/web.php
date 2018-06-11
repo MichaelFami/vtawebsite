@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/fullStack', function (){
     return view('fullStack');
 });
+
+Route::get('/applicationForm' , function (){
+    return view('applicationForm');
+});
