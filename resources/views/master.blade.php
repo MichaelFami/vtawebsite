@@ -16,7 +16,7 @@
     <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
             <div class="row w-100 no-gutters d-lg-flex d-flex flex-wrap justify-content-between">
-                <a class="navbar-brand col-lg-3 col-7 py-lg-3 order-lg-1 order-2 float-left d-block" href="Bootstrap 4 Navbar">
+                <a class="navbar-brand col-lg-3 col-7 py-lg-3 order-lg-1 order-2 float-left d-block" href="/">
                     <img id="vtaLogo" src="images/VTA-logo-white.png" class="img-fluid">
                 </a>
                 <div class="navbar-text col-lg-6 col-12 order-lg-2 order-1 text-right float-right align-self-end">
@@ -46,7 +46,7 @@
                         </li>
                         <span class="navbar-slash">/</span>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Online<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/courseCatalog">Online<span class="sr-only">(current)</span></a>
                         </li>
                         <span class="navbar-slash">/</span>
                         <li class="nav-item">

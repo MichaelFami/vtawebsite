@@ -22,3 +22,7 @@ Route::get('/fullStack', function (){
 Route::get('/applicationForm' , function (){
     return view('applicationForm');
 });
+
+Route::get('/courseCatalog' , function (){
+    return view('courseCatalog');
+});
