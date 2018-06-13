@@ -18,14 +18,14 @@
         </div>
     </div>
 </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center my-2 ml-3">
     <div class="col">
 
             <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseFullStack" aria-expanded="false" aria-controls="collapseFullStack">
     FULL STACK DEVELOPER
 </h1>
 
-        <div class="collapse" id="collapseFullStack">
+        <div class="collapse my-4" id="collapseFullStack">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <img src="images/carousel1.png" alt="">
@@ -37,11 +37,11 @@
                         <div class="row">
                             <h5>DURATION: 12 WEEK | 24 WEEK</h5>
                             <br>
-                            <h5>CLASSES BEGIN:JUNE 18, 2018</h5>
+                            <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
-                        <div class="row">
-                            <button type="button" name="button">APPLY</button>
-                            <button type="button" name="button">LEARN MORE</button>
+                        <div class="row mt-4">
+                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -51,14 +51,14 @@
         </div>
     </div>
 </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center my-2 ml-3">
     <div class="col">
 
             <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseMobileApp" aria-expanded="false" aria-controls="collapseMobileApp">
     MOBILE APP DEVELOPER
 </h1>
 
-        <div class="collapse" id="collapseMobileApp">
+        <div class="collapse my-4" id="collapseMobileApp">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <img src="images/carousel1.png" alt="">
@@ -70,11 +70,11 @@
                         <div class="row">
                             <h5>DURATION: 12 WEEK | 24 WEEK</h5>
                             <br>
-                            <h5>CLASSES BEGIN:JUNE 18, 2018</h5>
+                            <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
-                        <div class="row">
-                            <button type="button" name="button">APPLY</button>
-                            <button type="button" name="button">LEARN MORE</button>
+                        <div class="row mt-4">
+                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -85,14 +85,14 @@
     </div>
 </div>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center my-2 ml-3">
     <div class="col">
 
             <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseDataScience" aria-expanded="false" aria-controls="collapseDataScience">
     DATA SCIENCE
 </h1>
 
-        <div class="collapse" id="collapseDataScience">
+        <div class="collapse my-4" id="collapseDataScience">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <img src="images/carousel1.png" alt="">
@@ -104,11 +104,11 @@
                         <div class="row">
                             <h5>DURATION: 12 WEEK | 24 WEEK</h5>
                             <br>
-                            <h5>CLASSES BEGIN:JUNE 18, 2018</h5>
+                            <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row">
-                            <button type="button" name="button">APPLY</button>
-                            <button type="button" name="button">LEARN MORE</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -119,14 +119,14 @@
     </div>
 </div>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center my-2 ml-3">
     <div class="col">
 
             <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseCyberSecurity" aria-expanded="false" aria-controls="collapseCyberSecurity">
     CYBER SECURITY
 </h1>
 
-        <div class="collapse" id="collapseCyberSecurity">
+        <div class="collapse my-4" id="collapseCyberSecurity">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <img src="images/carousel1.png" alt="">
@@ -138,11 +138,11 @@
                         <div class="row">
                             <h5>DURATION: 12 WEEK | 24 WEEK</h5>
                             <br>
-                            <h5>CLASSES BEGIN:JUNE 18, 2018</h5>
+                            <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row">
-                            <button type="button" name="button">APPLY</button>
-                            <button type="button" name="button">LEARN MORE</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -153,14 +153,14 @@
     </div>
 </div>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center my-2 ml-3">
     <div class="col">
 
             <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseDesign" aria-expanded="false" aria-controls="collapseDesign">
     DESIGN
 </h1>
 
-        <div class="collapse" id="collapseDesign">
+        <div class="collapse my-4" id="collapseDesign">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <img src="images/carousel1.png" alt="">
@@ -172,11 +172,11 @@
                         <div class="row">
                             <h5>DURATION: 12 WEEK | 24 WEEK</h5>
                             <br>
-                            <h5>CLASSES BEGIN:JUNE 18, 2018</h5>
+                            <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row">
-                            <button type="button" name="button">APPLY</button>
-                            <button type="button" name="button">LEARN MORE</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
