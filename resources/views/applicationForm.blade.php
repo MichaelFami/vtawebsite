@@ -19,6 +19,8 @@
         <br>
         <h5 class="text-primary text-center">This is the first step to improve your professional skills and change your career.</h5>
     </div>
+
+    
 </div>
 <div class="row justify-content-center">
     <div class="col-md-5">
