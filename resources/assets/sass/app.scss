@@ -2,6 +2,8 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
+
 // Variables
 @import "variables";
 
@@ -11,4 +13,23 @@
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+
+}
+
+hr{
+    color: white;
+    border-color: inherit;
+}
+
+
+.navbar-slash{
+    padding-top: 7px;
+    display: block;
 }
