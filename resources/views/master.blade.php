@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="/css/slick-theme.css" />
     <title>@yield('title')</title>
 </head>
-
 <body>
     <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
@@ -21,7 +20,6 @@
                 </a>
                 <div class="navbar-text col-lg-6 col-12 order-lg-2 order-1 text-right float-right align-self-end">
                     <ul class="navbar-nav justify-content-end ml-auto w-40">
-
                         <li class="nav-item active">
                             <a class="nav-link" href="#">My Valley Tech<span class="sr-only"></span></a>
                         </li>
