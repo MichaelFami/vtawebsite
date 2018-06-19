@@ -1,4 +1,78 @@
-@extends('master') @section('title') Online Course Catalog @endsection @section('body')
+@extends('master') @section('title') Online Course Catalog @endsection
+@section('navbar')
+    <nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <div class="row w-100 no-gutters d-lg-flex d-flex flex-wrap justify-content-between">
+                <a class="navbar-brand col-lg-3 col-7 py-lg-3 order-lg-1 order-2 float-left d-block" href="/">
+                    <img id="vtaLogo" src="images/VTA-logo-white.png" class="img-fluid">
+                </a>
+                <div class="navbar-text col-lg-6 col-12 order-lg-2 order-1 text-right float-right align-self-end">
+                    <ul class="navbar-nav justify-content-end ml-auto w-40">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">My Valley Tech<span class="sr-only"></span></a>
+                        </li>
+                        <span class="navbar-slash">|</span>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/applicationForm">Apply<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler collapsed float-right order-3" type="button" data-toggle="collapse" data-target="#all-pages-176" aria-controls="all-pages-176" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="all-pages-176" class="navbar-collapse collapse float-right col-lg order-4">
+                    <ul class="navbar-nav justify-content-between ml-auto w-75">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Future Students</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Financial Aid</a>
+                                <a class="dropdown-item" href="#">Schedule Visit</a>
+                                <a class="dropdown-item" href="/applicationForm">Apply</a>
+                            </div>
+                        </li>
+                        <span class="navbar-slash">/</span>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/courseCatalog">Online<span class="sr-only">(current)</span></a>
+                        </li>
+                        <span class="navbar-slash">/</span>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="/fullStack">On Campus<span class="sr-only">(current)</span></a>
+                        </li>
+                        <span class="navbar-slash">/</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Career Plan</a>
+                        </li>
+                        <span class="navbar-slash">/</span>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Story</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Alumni</a>
+                                <a class="dropdown-item" href="#">Staff</a>
+                            </div>
+                        </li>
+                        <span class="navbar-slash">/</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Partners</a>
+                        </li>
+                        <span class="navbar-slash">/</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav justify-content-end ml-auto w-50">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Schedule A Visit</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+@endsection
+
+    @section('body')
 <div id="home" class="jumbotron jumbotron-fluid">
     <div class="row mx-4">
         <div class="col text-right">
@@ -20,10 +94,9 @@
 </div>
 <div class="row justify-content-center my-2 ml-3">
     <div class="col">
-
-            <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseFullStack" aria-expanded="false" aria-controls="collapseFullStack">
+            <button class="btn btn-danger ml-5" type="button" name="button"><h1 class="text-primary"  data-toggle="collapse" data-target="#collapseFullStack" aria-expanded="false" aria-controls="collapseFullStack">
     FULL STACK DEVELOPER
-</h1>
+</h1></button>
 
         <div class="collapse my-4" id="collapseFullStack">
                 <div class="row justify-content-center">
@@ -40,7 +113,7 @@
                             <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row mt-4">
-                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button" href="/applicationForm">APPLY</button>
                             <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
@@ -53,10 +126,10 @@
 </div>
 <div class="row justify-content-center my-2 ml-3">
     <div class="col">
-
-            <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseMobileApp" aria-expanded="false" aria-controls="collapseMobileApp">
+            <button class="btn ml-5" type="button" name="button"><h1 class="text-primary"  data-toggle="collapse" data-target="#collapseMobileApp" aria-expanded="false" aria-controls="collapseMobileApp">
     MOBILE APP DEVELOPER
-</h1>
+</h1></button>
+
 
         <div class="collapse my-4" id="collapseMobileApp">
                 <div class="row justify-content-center">
@@ -73,7 +146,7 @@
                             <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row mt-4">
-                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button" href="/applicationForm">APPLY</button>
                             <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
@@ -87,10 +160,10 @@
 
 <div class="row justify-content-center my-2 ml-3">
     <div class="col">
-
-            <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseDataScience" aria-expanded="false" aria-controls="collapseDataScience">
+            <button class="btn ml-5" type="button" name="button"><h1 class="text-primary"  data-toggle="collapse" data-target="#collapseDataScience" aria-expanded="false" aria-controls="collapseDataScience">
     DATA SCIENCE
-</h1>
+</h1></button>
+
 
         <div class="collapse my-4" id="collapseDataScience">
                 <div class="row justify-content-center">
@@ -107,7 +180,7 @@
                             <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row">
-                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button" href="/applicationForm">APPLY</button>
                             <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
@@ -121,10 +194,10 @@
 
 <div class="row justify-content-center my-2 ml-3">
     <div class="col">
-
-            <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseCyberSecurity" aria-expanded="false" aria-controls="collapseCyberSecurity">
+            <button class="btn ml-5" type="button" name="button"><h1 class="text-primary"  data-toggle="collapse" data-target="#collapseCyberSecurity" aria-expanded="false" aria-controls="collapseCyberSecurity">
     CYBER SECURITY
-</h1>
+</h1></button>
+
 
         <div class="collapse my-4" id="collapseCyberSecurity">
                 <div class="row justify-content-center">
@@ -141,7 +214,7 @@
                             <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row">
-                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button" href="/applicationForm">APPLY</button>
                             <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
@@ -155,10 +228,10 @@
 
 <div class="row justify-content-center my-2 ml-3">
     <div class="col">
-
-            <h1 class="text-primary"  data-toggle="collapse" data-target="#collapseDesign" aria-expanded="false" aria-controls="collapseDesign">
+            <button class="btn ml-5" type="button" name="button"><h1 class="text-primary"  data-toggle="collapse" data-target="#collapseDesign" aria-expanded="false" aria-controls="collapseDesign">
     DESIGN
-</h1>
+</h1></button>
+
 
         <div class="collapse my-4" id="collapseDesign">
                 <div class="row justify-content-center">
@@ -175,7 +248,7 @@
                             <h5>CLASSES BEGIN: JUNE 18, 2018</h5>
                         </div>
                         <div class="row">
-                            <button class="btn btn-danger mx-3" type="button" name="button">APPLY</button>
+                            <button class="btn btn-danger mx-3" type="button" name="button" href="/applicationForm">APPLY</button>
                             <button class="btn" type="button" name="button">LEARN MORE</button>
                         </div>
                     </div>
@@ -186,7 +259,7 @@
         </div>
     </div>
 </div>
-<div class="row my-4" id="greyBand">
+<div class="row my-4 bg-primary" id="greyBand">
     <div class="col-md-6 text-center">
         <p class="greyBandText">OUR ADMISSION PRICE</p>
         <button class="py-1 px-4" type="button" name="button">LEARN MORE</button>

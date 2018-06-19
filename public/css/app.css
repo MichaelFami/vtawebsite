@@ -10445,7 +10445,6 @@ hr {
 }
 
 #greyBand {
-  background-color: grey;
   padding: 50px;
 }
 
@@ -10504,5 +10503,11 @@ hr {
 
 .slickSlides .slide img {
   width: 100%;
+}
+
+#twoButtons {
+  background-color: grey;
+  padding: 50px;
+  margin-top: 100px;
 }
 
